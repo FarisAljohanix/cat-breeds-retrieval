@@ -1,5 +1,9 @@
 ## Cat Image Retrieval (Streamlit + Qdrant)
 
+
+Uploading Screen Recording 2025-12-23 at 6.41.17 PM.mov…
+
+
 A simple image-retrieval demo that embeds cat images with OpenCLIP, stores them in Qdrant, and lets you query by uploading a new image.
 
 ### Prerequisites
