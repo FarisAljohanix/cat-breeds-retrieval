@@ -42,6 +42,3 @@ Open the shown URL (default http://localhost:8501), upload a cat image, and view
 ```bash
 docker compose down   # stop Qdrant
 ```
-
-# cat-breeds-retrieval
-Cat image retrieval: embed cat photos with OpenCLIP, store in Qdrant, and search by image via Streamlit

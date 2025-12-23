@@ -1,0 +1,11 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: cat_db
+    ports:
+      - "6331:6333"
+    environment:
+      QDRANT__WEB__ENABLE: "true"
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+    restart: unless-stopped
